@@ -32,13 +32,13 @@ class Character
     end
 end
 
-class Brave < Character
+class Yusha < Character
 end
 
 class Enemy < Character
 end
 
-brave = Brave.new
+brave = Yusha.new
 brave.hp(50)
 brave.show_hp
 brave.offense(100)
